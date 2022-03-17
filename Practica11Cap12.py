@@ -1,7 +1,5 @@
-#para eliminar una posicion especifica, se usa del lista[posicion deseada]
+#para eliminar una posicion especifica, se usa nombredelista.remove("la palabra deseada a eliminar")
 colores = ['rojo', 'azul', 'verde', 'amarillo', 'marrón', 'lila', 'negro', 'rosa', 'blanco', 'naranja']#se declara la lista
-del colores[1]#deseamos elminiar azul, en la posicion 1
-del colores[4]#deseamos elminiar marron, en la posicion 4
-del colores[-4]#deseamos eliminar negro en posicion -4
-del colores[-3]#por ultimo, deseamos elminiar rosa en la posicion -3
+colores.remove("amarillo")#deseamos elminiar amarillo, por lo que se manda como parametro amarillo
+colores.remove("rojo")#deseamos elminiar rojo, asi que mandamos como parametro "rojo"
 print(colores)#imprimimos la lista completa y vemos que ya no aparecen los elementos que eliminamos
