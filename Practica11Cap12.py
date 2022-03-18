@@ -1,5 +1,6 @@
-#para eliminar una posicion especifica, se usa nombredelista.remove("la palabra deseada a eliminar")
-colores = ['rojo', 'azul', 'verde', 'amarillo', 'marrón', 'lila', 'negro', 'rosa', 'blanco', 'naranja']#se declara la lista
-colores.remove("amarillo")#deseamos elminiar amarillo, por lo que se manda como parametro amarillo
-colores.remove("rojo")#deseamos elminiar rojo, asi que mandamos como parametro "rojo"
-print(colores)#imprimimos la lista completa y vemos que ya no aparecen los elementos que eliminamos
+colores = ['rojo', 'azul', 'verde', 'amarillo', 'marrón', 'lila', 'negro', 'rosa', 'blanco', 'naranja']#declaramos la lista
+del colores[1]#definimos la posicion deseada a eliminar
+del colores[4]
+del colores[-4]
+del colores[-3]
+print(colores)#luego imprimimos

@@ -1,14 +1,6 @@
-x = 0
-y = 0
-z = 10
-while x!=15:
-    x=x+5
-    print(x)
-
-while y !=-100:
-    y = y-20
-    print(y)
-
-while z != 0:
-    z=z-1
-    print("El valor del bucle es: ",z)
+entrada = input('Introduce el color:\n')#pedimos el color a buscar
+tupla = ("rojo","azul","verde","negro")#declaramos la tupla
+if entrada in tupla:#si el color buscado esta dentro, corre la tupla
+    print('El color que buscas está en la lista.')
+else:#de ser lo contrario, se corre el else
+    print('El color que buscas no está en la lista.')

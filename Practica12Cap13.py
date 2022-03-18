@@ -1,7 +1,5 @@
-#para eliminar una posicion especifica, y luego guardar se usa guardarLista(para guardatr la posicion que se desea eliminar) asi:
-#guardarLista = colores.pop(0)
-colores = ['rojo', 'azul', 'verde', 'amarillo', 'marrón', 'lila', 'negro', 'rosa', 'blanco', 'naranja']
-g1 = colores.pop(1)#deseamos elminiar rojo y guardarlo en g1
-g2 = colores.pop(-3)#deseamos elminiar blanco y guardarlo en g2, asi
-print(colores,"\n")
-print(g1,g2)#imprimimos la lista completa y vemos que ya no aparecen los elementos que eliminamos
+#para eliminar una posicion especifica, se usa nombredelista.remove("la palabra deseada a eliminar")
+colores = ['rojo', 'azul', 'verde', 'amarillo', 'marrón', 'lila', 'negro', 'rosa', 'blanco', 'naranja']#se declara la lista
+colores.remove("amarillo")#deseamos elminiar amarillo, por lo que se manda como parametro amarillo
+colores.remove("rojo")#deseamos elminiar rojo, asi que mandamos como parametro "rojo"
+print(colores)#imprimimos la lista completa y vemos que ya no aparecen los elementos que eliminamos

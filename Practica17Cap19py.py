@@ -1,8 +1,6 @@
-
-#para convertir una lista en tupla se usa el metodo  tuple
-#tupla = tuple(lista)
-#y para convertir tupla a lista
-# lista = list(tupla)
-colores = ['rojo', 'azul', 'verde', 'amarillo', 'marrón', 'lila', 'negro', 'rosa', 'blanco', 'naranja']
-tupla = tuple(colores)
-print(tupla)
+#print(tupla)
+#para una posicion especifica print(tupla[2])
+colores = ('rojo', 'azul', 'verde', 'amarillo', 'marrón', 'lila', 'negro', 'rosa', 'blanco', 'naranja')
+print(colores[1])#imprimimos la posicion 1 de la dulpa
+numeros = (10, 1, 5, 11)#declaramos la dupla
+print(numeros[0] + numeros[3] + numeros[2] - numeros[1])#imprimimos la dupla para que el resultado sea 25

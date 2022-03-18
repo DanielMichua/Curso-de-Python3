@@ -1,9 +1,6 @@
-
-#las tuplas son: tupla =("x",",","r")
-#las tuplas no se pueden modificar, es una constante
-#print(tupla)
-#para una posicion especifica print(tupla[2])
-colores = ('rojo', 'azul', 'verde', 'amarillo', 'marrón', 'lila', 'negro', 'rosa', 'blanco', 'naranja')
-print(colores[1])#imprimimos la posicion 1 de la dulpa
-numeros = (10, 1, 5, 11)#declaramos la dupla
-print(numeros[0] + numeros[3] + numeros[2] - numeros[1])#imprimimos la dupla para que el resultado sea 25
+#para ordenar de forma alfabetica la lista
+#colores.sort() y list
+#y para que vaya de mayor a menor colores.sort(reverse=True)
+colores = ['rojo', 'azul', 'verde', 'amarillo', 'marrón', 'lila', 'negro', 'rosa', 'blanco', 'naranja']
+colores.sort(reverse=True)#añadimos magneta en la posicion 5
+print(colores)#imprimimos la lista

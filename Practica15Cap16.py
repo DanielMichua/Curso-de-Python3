@@ -1,6 +1,6 @@
-#para ordenar de forma alfabetica la lista
-#colores.sort() y list
-#y para que vaya de mayor a menor colores.sort(reverse=True)
+#para añadir un elemento en una posicion especifica se usa la funcion insert
+#colores.inster(posicion,"añadir")
 colores = ['rojo', 'azul', 'verde', 'amarillo', 'marrón', 'lila', 'negro', 'rosa', 'blanco', 'naranja']
-colores.sort(reverse=True)#añadimos magneta en la posicion 5
+colores.insert(5,"magneta")#añadimos magneta en la posicion 5
+colores.insert(10,"turquesa")#luego añadimos "turquesa" en la posicion 8
 print(colores)#imprimimos la lista

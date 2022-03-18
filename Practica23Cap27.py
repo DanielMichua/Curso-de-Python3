@@ -1,14 +1,14 @@
-x = 0#declaramos las variables
+x = 0#declaramos las variable
 y = 0
 z = 10
-while x!=15:#para el primer caso, se va a ejecutar el while mientras sea diferente de 15, con aumento de 5, y hasta que sea 15 va a salir
+while x!=15:#la primera se ejecutara siempre y cuando sea diferente de 15, aumenta de 5 en 5, y hasta que llega a 15 se rompe el ciclo
     x=x+5
     print(x)
 
-while y !=-100:#en este caso, se va a efectuar desde 0 hasta -100, con saltos de 20, hasta -100 se va a salir del bucle
+while y !=-100:#aqui la condicion es distinta, se inicializa en 0, y al llegar a -100 se rompe el ciclo, se disminuye de 20 en 20
     y = y-20
     print(y)
 
-while z != 0:#aqui se inicializa en 10, y decrece en 1, y por cada ciclo se muestra la posicion en el buqle
+while z != 0:#aqui se inicializa en 10, y al disminuirse de 1 en 1 hasta llegar al 0 se rompe el ciclo
     z=z-1
     print("El valor del bucle es: ",z)
